@@ -1,0 +1,67 @@
+/*
+
+filename: TranVietHoang
+
+author: Hoang
+
+created: 22/3
+
+last modified: 23/3
+
+description: lab04.html
+
+*/
+
+* { font-family: calibri, sans-serif; 
+    color:#2F4F4F; 
+    font-size: 0,2em;
+}
+
+h1{
+    color: rgb(144, 40, 118);
+    font-size: 1,3em;
+    font-weight: bold;
+
+}
+h2 {
+    color: rgb(16, 19, 19);
+    font-size: 1,5em;
+    font-weight: bold;
+
+}
+
+.special {
+    background-color: yellow;
+    font-weight: bold;
+    padding: 2px;
+}
+
+
+table, th, td, tr, thead, tbody {   /* group selectors*/
+    border: 1px solid black;
+}
+
+nav ul{    /* it means that in header in nav every ul item has to be the same design  */
+    list-style-type: none;
+    text-align: left;
+
+}
+
+nav ul li{   /* everything list item has to be the same*/
+    display: inline-block;
+    border: 2px solid black;
+    margin-left: 0;    /* size of anything around the element(this case is list item)*/
+    padding: 2px;
+}
+
+nav ul li a{
+    text-decoration: none;  /* do not make nav link underline*/
+    color:rgb(4, 6, 6);
+    border: 1px black;
+}
+
+nav ul li a:hover {  /* when use mouse over the a tag it will change*/
+    color: yellow;
+}
+
+/* if you want to put a image in the middle of page you will use display:block and then use the margin to put it in the middle*/
