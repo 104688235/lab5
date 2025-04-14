@@ -13,8 +13,8 @@ description: lab04.html
 */
 header{
     border: solid 1px darkgrey;
-    margin: 0,5em;
-    padding: 0,5em;
+    margin: 1em;
+    padding: 1em;
     background-color:lightgray;
     text-align: center;
 }
